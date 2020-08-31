@@ -53,6 +53,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04F837FB24FCE8C000D73467 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDB90371200F23ED00B7874B /* ItemTableViewController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		04F837FC24FCE8CB00D73467 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDB9036F200F22CA00B7874B /* ToDoItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04F837FD24FCE8D300D73467 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDB90353200F214B00B7874B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FDB90343200F214A00B7874B = {
 			isa = PBXGroup;
 			children = (
@@ -74,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				FDB9034F200F214B00B7874B /* AppDelegate.swift */,
-				FDB90353200F214B00B7874B /* Main.storyboard */,
+				04F837FC24FCE8CB00D73467 /* Model */,
+				04F837FB24FCE8C000D73467 /* Model Controller */,
+				04F837FD24FCE8D300D73467 /* Views */,
 				FDB90356200F214B00B7874B /* Assets.xcassets */,
 				FDB9035B200F214B00B7874B /* Info.plist */,
-				FDB9036F200F22CA00B7874B /* ToDoItem.swift */,
-				FDB90371200F23ED00B7874B /* ItemTableViewController.swift */,
 			);
 			path = MyToDo;
 			sourceTree = "<group>";
@@ -332,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3P8URX7UV;
 				INFOPLIST_FILE = MyToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nnn.MyToDo;
@@ -346,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3P8URX7UV;
 				INFOPLIST_FILE = MyToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nnn.MyToDo;
